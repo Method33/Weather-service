@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ustawia kodowanie znaków dla dokumentu -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Zapewnia poprawne skalowanie strony na urządzeniach mobilnych -->
+    <title>Pogoda</title>
+    <!-- Tytuł wyświetlany na karcie przeglądarki -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Łączy zewnętrzny plik CSS ze stroną dla stylizacji -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Dołącza bibliotekę Chart.js do generowania wykresów -->
+</head>
+<body class="background">
+    <!-- Dodaje klasę dla tła całej strony -->
+    <div class="content">
+        <!-- Kontener na treść strony z możliwą osobną stylizacją -->
+        <h1>Sprawdź pogodę</h1>
+        <!-- Nagłówek strony -->
+        <form id="weatherForm">
+            <!-- Formularz z identyfikatorem 'weatherForm' -->
+            <input type="text" id="city" placeholder="Wpisz nazwę miasta">
+            <!-- Pole tekstowe dla użytkownika do wpisania nazwy miasta -->
+            <button type="submit">Sprawdź pogodę</button>
+            <!-- Przycisk do wysłania formularza -->
+        </form>
+        <div id="weatherResult"></div>
+        <!-- Miejsce na wyświetlenie wyników zapytania o pogodę -->
+        <canvas id="temperatureChart"></canvas>
+        <!-- Element canvas do rysowania wykresu temperatury używając Chart.js -->
+    </div>
+
+    <script src="Script.js"></script>
+    <!-- Dołączenie zewnętrznego pliku JavaScript do obsługi logiki strony -->
+</body>
+</html>

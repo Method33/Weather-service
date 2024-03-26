@@ -1,0 +1,77 @@
+/* Styl dla g³ównego t³a strony */
+body.background {
+    background-image: url('/WeatherBG.jpg'); /* Ustawia obraz t³a */
+    background-size: cover; /* Zapewnia pe³ne pokrycie t³em bez tracenia proporcji */
+    background-position: center; /* Centruje obraz t³a */
+    background-repeat: no-repeat; /* Zapobiega powtarzaniu siê obrazu t³a */
+    height: 100vh; /* Wysokoœæ na ca³y ekran */
+    margin: 0; /* Usuwa domyœlny margines */
+    color: #FFFFFF; /* Ustawienie bia³ego koloru tekstu */
+}
+
+/* Styl dla nag³ówka pierwszego poziomu */
+h1 {
+    color: #E0E0E0; /* Jasnoszary kolor */
+}
+
+/* Styl dla pól tekstowych */
+input[type="text"] {
+    padding: 10px; /* Wewnêtrzny odstêp */
+    border: none; /* Brak obramowania */
+    border-radius: 20px; /* Zaokr¹glenie rogów */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Cieñ dla lepszego wygl¹du */
+    margin-right: 10px; /* Odstêp od prawej strony */
+    width: 200px; /* Szerokoœæ pola */
+}
+
+/* Styl dla przycisków */
+button {
+    padding: 10px 20px; /* Wewnêtrzny odstêp */
+    border: none; /* Brak obramowania */
+    border-radius: 20px; /* Zaokr¹glenie rogów */
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 100%); /* Gradient t³a */
+    color: white; /* Bia³y tekst */
+    font-weight: bold; /* Pogrubienie tekstu */
+    cursor: pointer; /* Kursor wskazuj¹cy klikalnoœæ */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Cieñ dla lepszego wygl¹du */
+    transition: transform 0.2s ease-in-out; /* Animacja transformacji */
+}
+
+    /* Efekt przy najechaniu myszk¹ na przycisk */
+    button:hover {
+        transform: scale(1.05); /* Powiêkszenie przycisku */
+    }
+
+    /* Efekt przy klikniêciu na przycisk */
+    button:active {
+        transform: scale(0.95); /* Zmniejszenie przycisku */
+    }
+
+/* Styl dla wyników pogody */
+#weatherResult {
+    color: #FFFF00; /* ¯ó³ty kolor tekstu */
+    padding: 20px; /* Wewnêtrzny odstêp */
+}
+
+/* Styl dla wykresu temperatury */
+#temperatureChart {
+    max-width: 600px; /* Maksymalna szerokoœæ */
+    height: 400px; /* Wysokoœæ */
+    background-color: rgba(255, 255, 255, 0.5); /* Pó³przezroczyste t³o */
+    border-radius: 10px; /* Zaokr¹glenie rogów */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cieñ dla lepszego wygl¹du */
+    margin: 20px auto; /* Automatyczne wyœrodkowanie */
+}
+
+/* Styl dla kontenera wykresu */
+.chart-container {
+    position: relative; /* Pozycjonowanie wzglêdem innych elementów */
+    height: 400px; /* Wysokoœæ kontenera */
+}
+
+/* Styl dla ca³ej strony */
+html, body {
+    overflow-y: auto; /* Umo¿liwia przewijanie, jeœli zawartoœæ wykracza poza wysokoœæ ekranu */
+    margin: 0; /* Usuwa domyœlny margines */
+    padding: 0; /* Usuwa domyœlny wewnêtrzny odstêp */
+}

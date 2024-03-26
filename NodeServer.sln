@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "NodeServer", "NodeServer\NodeServer.esproj", "{A742A87A-0CE2-4F2C-8B6C-65CD705E9793}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{33935BC1-F8BC-41D7-8581-A9CB091867E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A742A87A-0CE2-4F2C-8B6C-65CD705E9793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A742A87A-0CE2-4F2C-8B6C-65CD705E9793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A742A87A-0CE2-4F2C-8B6C-65CD705E9793}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A742A87A-0CE2-4F2C-8B6C-65CD705E9793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A742A87A-0CE2-4F2C-8B6C-65CD705E9793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A742A87A-0CE2-4F2C-8B6C-65CD705E9793}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79817947-5133-41F4-984E-A2800C46397C}
+	EndGlobalSection
+EndGlobal
