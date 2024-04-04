@@ -1,0 +1,71 @@
+/* Styling background, text, and form elements for better aesthetics and usability */
+body.background {
+    background-image: url('../images/WeatherBG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #E0E0E0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    width: 200px;
+}
+
+/* Button styles with interaction effects for improved user experience */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+    button:hover {
+        transform: scale(1.05);
+    }
+
+    button:active {
+        transform: scale(0.95);
+    }
+
+/* Styling result sections and charts for better data visualization */
+#weatherResult {
+    color: #FFFF00;
+    padding: 20px;
+}
+
+#temperatureChart {
+    max-width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+}
+
+/* Ensuring consistent appearance across the entire page */
+html, body {
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}

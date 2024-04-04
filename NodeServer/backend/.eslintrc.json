@@ -10,7 +10,7 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    // twoje reguły
+    // here we ca add the rules
   },
   "globals": {
     "Chart": "readonly",
